@@ -10,10 +10,7 @@ int main()
 }
 void fibonacci()
 {
-    double i=0, j=1, x=0;
     double vet[100];
-    vet[0]=0;
-    vet[1]=1;
     for(int y=0;y<100;y++){
         if(y<2){
             vet[y]=y;
